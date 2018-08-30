@@ -1,0 +1,145 @@
+
+body {
+    padding-top: 0rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1d134f;
+}
+
+.nav-link {
+    color: #fff;   
+}
+
+.nav-link:hover { 
+    color: 	#fff;
+    border-bottom: 2px solid #fff;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+.carousel-caption {
+    padding-bottom: 12%;
+}
+
+.carousel-caption h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Ready */
+.ready {
+  background: transparent;
+  position: absolute;
+  top: 200px;
+  left:300px;
+  color: #fff;
+  z-index: 9999;
+}
+
+/* Ready Button */
+.ready-button {
+  background: #1d134f;
+  position:relative;
+  top: 20px;
+  left: 140px;
+  color: #fff;
+  z-index: 9999;
+  text-align: center;
+    width:100px;
+}
+
+/* My Text */
+.my-text {
+  background: transparent;
+  position:absolute;
+  top: 320px;
+  left:0px;
+  color: #fff;
+  z-index: 9999;
+}
+
+/* My Box Text */
+.my-box-text {
+    background: #1d134f;
+    border: solid #fff;
+    border-width: thin;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* Contact */
+
+.contact {
+  background: #1d134f;
+  padding: 20px 10px;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+
+.count-particles{
+  background: #1d134f;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #1d134f;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.class="particles-js-canvas-el" {
+    height: 100px;
+    width: 100px;
+}
+
+    
