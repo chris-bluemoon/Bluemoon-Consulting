@@ -1,29 +1,45 @@
 
 body {
     padding-top: 0rem;
+    position: relative;
 }
 
-.starter-template {
-    padding: 3rem 1.5rem;
+.what-we-do {
+    color: #5e717f;
+    padding-top: 50px;
+    padding-bottom: 10px;
     text-align: center;
+    margin-bottom: 0px;
+}
+
+.navbar .navbar-expand-md .navbar-dark .bg-dark .fixed-top {
+    border: 12px solid #B22222;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* Navbar */
-.navbar {
-    background-color: #1d134f;
+.bg-dark {
+   background-color: #5e717f!important;
+/*   border-bottom: solid white thin;*/
+ }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
-.nav-link {
-    color: #fff;   
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
 }
 
-.nav-link:hover { 
-    color: 	#fff;
-    border-bottom: 2px solid #fff;
+.nav-link:hover {
+    color: white!important;
+    border-bottom: 2px solid white;
 }
 
 .active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid white;
 }
 
 .carousel-caption {
@@ -35,31 +51,69 @@ body {
     font-weight: bold;
 }
 
+/* mySection */
+.mySection {
+  background: #5e717f;
+  position: absolute;
+  top: 50px;
+  left:350px;
+  color: #fff;
+  height: 41px;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /* Ready */
 .ready {
-  background: transparent;
+  background: #5e717f;
   position: absolute;
-  top: 300px;
-  left:300px;
+  top: 200px;
+  left:350px;
   color: #fff;
-  z-index: 9999;
+  height: 41px;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* Ready Button */
 .ready-button {
-  background: #1d134f;
+  background: #5e717f;
   position:relative;
   top: 20px;
-  left: 140px;
+  left: 130px;
+  color: #fff;
+  text-align: center;
+    width:90px;
+}
+
+/* Demo Button */
+.demo-button {
+  background: #5e717f;
+  position:relative;
+  top: 0px;
+  left: 80px;
   color: #fff;
   z-index: 9999;
   text-align: center;
     width:100px;
 }
 
+/* Contact Button */
+.contact-button {
+  background: #5e717f;
+  color: #fff;
+  z-index: 9999;
+  text-align: center;
+  width:100px;
+}
+
 /* My Text */
 .my-text {
-  background: #1d134f;
+  background: #5e717f;
 /*
   position:absolute;
   top: 320px;
@@ -71,17 +125,24 @@ body {
 
 /* My Box Text */
 .my-box-text {
-    background: #1d134f;
-    border: solid #fff;
-    border-width: thin;
+    color: #5e717f; 
+    background: #fff;
     padding: 10px;
     font-size: 15px;
+    height: auto;
+}
+
+/* Team */
+
+.team {
+    padding: 50px 10px;
+    background: linear-gradient(#21ddfb, #19a4ba);
 }
 
 /* Contact */
 
 .contact {
-  background: #1d134f;
+  background: #5e717f;
   padding: 20px 10px;
 }
 
@@ -89,12 +150,13 @@ body {
     color: #fff;
 }
 
+
 /* ---- particles.js container ---- */
 
 #particles-js{
   width: 100%;
   height: 400px;
-  background-color: #1d134f;
+  background-color: #5e717f;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;

@@ -23,7 +23,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": ["#ffffff","#3498db"]
+        "value": "#ffffff"
       },
       "shape": {
         "type": "image",
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "img/g3.png",
+          "src": "img/g3-white.png",
           "width": 50,
           "height": 100
         }
