@@ -4,6 +4,12 @@ body {
     position: relative;
 }
 
+#chris {
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+
 .what-we-do {
     color: #5e717f;
     padding-top: 50px;
@@ -34,43 +40,25 @@ body {
 }
 
 .nav-link:hover {
-    color: white!important;
     border-bottom: 2px solid white;
 }
 
+.nav-link {
+    color: white!important;
+    border-bottom: 2px solid #5e717f;
+}
+/*
 .active {
     border-bottom: 2px solid white;
 }
-
-.carousel-caption {
-    padding-bottom: 12%;
-}
-
-.carousel-caption h3 {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-/* mySection */
-.mySection {
-  background: #5e717f;
-  position: absolute;
-  top: 50px;
-  left:350px;
-  color: #fff;
-  height: 41px;
-    border-top: solid thin;
-    border-bottom: solid thin;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+*/
 
 /* Ready */
 .ready {
   background: #5e717f;
-  position: absolute;
-  top: 200px;
-  left:350px;
+  position: relative;
+  bottom: 120%;
+  left: 30%;
   color: #fff;
   height: 41px;
     border-top: solid thin;
