@@ -4,12 +4,6 @@ body {
     position: relative;
 }
 
-#chris {
-    position: relative;
-    top: 30%;
-    left: 40%;
-}
-
 .what-we-do {
     color: #5e717f;
     padding-top: 50px;
@@ -58,25 +52,19 @@ body {
   background: #5e717f;
   position: relative;
   top: -220px;
-  left: 30%;
   color: #fff;
-  height: 81px;
-    border-top: solid thin;
-    border-bottom: solid thin;
-    padding-left: 5px;
-    padding-right: 5px;
+  height: 94px;
+  width: 400px;
+  border-top: solid thin;
+  border-bottom: solid thin;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0 auto;
 }
 
-/* Ready Button */
-.ready-button {
-  background: #5e717f;
-  position:relative;
-  top: 30%;
-  left: 40%;
-  color: #fff;
-  text-align: center;
-    width:90px;
-}
+#chris {
+  height: 1px;
+} 
 
 /* Demo Button */
 .demo-button {
